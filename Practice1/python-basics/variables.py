@@ -2,8 +2,8 @@
 
 # Assigning values to variables
 name = "Iskandar"
-age = 20
-height = 1.75
+age = 18
+height = 1.85
 
 # Printing variables
 print("Name:", name)
