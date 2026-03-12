@@ -1,56 +1,31 @@
-# integer type variables and also multiple values below 
+# data_types.py
 
+# Different data types in Python
 
-x , y , z = 2 , 3 , 6
+# String
+name = "Iskandar"
+print("String:", name)
 
-print (x , y , z, end = "\n")
+# Integer
+age = 20
+print("Integer:", age)
 
-# float ones
-  
-e , d = 7.9 , 3.6
-print (e, d)
+# Float
+height = 1.75
+print("Float:", height)
 
-#string type variables 
+# Boolean
+is_student = True
+print("Boolean:", is_student)
 
-f ,c = "lal ", 'kun '
-print(f, c)
-
-#Case-Sensitive 
-
-a = 8 
-A = "Kun"
-print(a)
-print(A)
-
-#variable names 
-
-MyName = "Iskandar"
-my_name = "Iskan"
-
-print(MyName)
-print(my_name)
-
-#List type
-
-fruit = ["apple ", "banana " , "cherry"]
-
-#after declaring again same things like x it will change no latest one 
- 
-print(fruit)
-
-#global variables 
-
-x = "awesome"
-
-def myfunc():
-  x = "fantastic"
-  print("Python is " + x)
-
-myfunc()
-
-print("Python is " + x)
+# List
+fruits = ["apple", "banana", "cherry"]
+print("List:", fruits)
 
 # Tuple
-
 coordinates = (10, 20)
 print("Tuple:", coordinates)
+
+# Dictionary
+person = {"name": "Iskandar", "age": 20}
+print("Dictionary:", person)
